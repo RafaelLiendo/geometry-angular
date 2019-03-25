@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'g[hud]',
+  selector: '[id="hud"]',
   templateUrl: './hud.component.svg',
   styleUrls: ['./hud.component.scss']
 })

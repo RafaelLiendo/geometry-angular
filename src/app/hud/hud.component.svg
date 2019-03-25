@@ -1,1 +1,16 @@
-<svg:text x="120" y="50">{{message}}</svg:text>
+<!-- axis -->
+<svg:line x1="0" y1="-100" x2="0" y2="100" />
+<svg:line x1="-100" y1="0" x2="100" y2="0" />
+
+<!-- choords -->
+<svg:text x="-10" y="10">0</svg:text>
+<svg:text x="-10" y="-90">1</svg:text>
+<svg:text x="-10" y="99">-1</svg:text>
+<svg:text x="90" y="10">1</svg:text>
+<svg:text x="-100" y="10">-1</svg:text>
+
+<!-- edges -->
+<svg:line x1="-5" y1="-100" x2="5" y2="-100" />
+<svg:line x1="-5" y1="100" x2="5" y2="100" />
+<svg:line x1="100" y1="-5" x2="100" y2="5" />
+<svg:line x1="-100" y1="-5" x2="-100" y2="5" />
